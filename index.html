@@ -9,33 +9,41 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav-ul">
-            <li class="nav-li active">
-                <a href="#home" ><i class="link fa fa-home fa-fw" data-filter="content-home"></i></a>
-                <a href="#home" class="link" data-filter="content-home">Home</a>
-            </li>
-            <li class="nav-li">
-                <a href="#about" ><i class="link fas fa-user" data-filter="content-about"></i></a>
-                <a href="#about" class="link" data-filter="content-about">About</a>
-            </li>
-            <li class="nav-li">
-                <a href="#resume" ><i class="link fas fa-poll-h" data-filter="content-resume"></i></a>
-                <a href="#resume" class="link" data-filter="content-resume"> Resume</a>
-            </li>
-            <li class="nav-li">
-                <a href="#portfolio" ><i class="link fas fa-pencil-alt" data-filter="content-portfolio"></i></a>
-                <a href="#portfolio" class="link" data-filter="content-portfolio">Portfolio</a>
-            </li>
-            <li class="nav-li">
-                <a href="#blog" ><i class="link fab fa-stack-exchange" data-filter="content-blog"></i></a>
-                <a href="#blog" class="link" data-filter="content-blog">Blog</a>
-            </li>
-            <li class="nav-li">
-                <a href="#contact" ><i class="link fas fa-envelope" data-filter="content-contact"></i></a>
-                <a href="#contact" class="link" data-filter="content-contact">Contact</a>
-            </li>
-        </ul>
+    <nav class="nav">
+        <div class="nav__menu" id="nav-menu"> 
+            <ul class="nav-ul">
+                <li class="nav-li active">
+                    <a href="#home" ><i class="link fa fa-home fa-fw" data-filter="content-home"></i></a>
+                    <a href="#home" class="link" data-filter="content-home">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#about" ><i class="link fas fa-user" data-filter="content-about"></i></a>
+                    <a href="#about" class="link" data-filter="content-about">About</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#resume" ><i class="link fas fa-poll-h" data-filter="content-resume"></i></a>
+                    <a href="#resume" class="link" data-filter="content-resume"> Resume</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#portfolio" ><i class="link fas fa-pencil-alt" data-filter="content-portfolio"></i></a>
+                    <a href="#portfolio" class="link" data-filter="content-portfolio">Portfolio</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#blog" ><i class="link fab fa-stack-exchange" data-filter="content-blog"></i></a>
+                    <a href="#blog" class="link" data-filter="content-blog">Blog</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#contact" ><i class="link fas fa-envelope" data-filter="content-contact"></i></a>
+                    <a href="#contact" class="link" data-filter="content-contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
 
     <main>
@@ -52,7 +60,7 @@
                     <a target="_blank" href="https://www.github.com/Dorcas-BD">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a target="_blank" href="https://www.facebook.com/d">
+                    <a target="_blank" href="https://www.facebook.com/dorcasbami">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a target="_blank" href="https://www.linkedin.com/in/dorcasbamisile">
@@ -61,7 +69,7 @@
                     <a target="_blank" href="https://www.medium.com/@Dorcas_BD">
                         <i class="fab fa-medium" ></i>
                     </a>
-                    
+                   
                 </div>
             </div>
         </section>
@@ -76,7 +84,8 @@
                     <p>Creative and self-starting software developer with 
                         more than two years experience in building and practicing 
                         converting data to a graphical interface, through the use 
-                        of HTML, CSS, Bootstrap, JavaScript, Reactjs and C# </p>
+                        of HTML, CSS, Bootstrap, JavaScript, Reactjs and C# 
+                    </p>
                 </div>
             </div>
         </section>
@@ -351,6 +360,9 @@
         </div>
         <p>Dorcas Bamisile, Copyright &copy; 2021</p>
     </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
